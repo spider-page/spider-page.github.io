@@ -215,8 +215,30 @@
 
 
 @media screen and (max-width: 780px)
+	.set-header
+		text-align: center
+		display: flex
+		flex-direction: column
+		align-items: center
+		h2:last-child
+			padding: 0
+		img
+			width: 400px
+			height: 300px
+
 	.help-arrow
 		left: -93px
+	.ch-bl-2,
+	.ch-bl-4,
+	.ch-bl-6,
+	.ch-bl-8
+		display: flex
+		flex-direction: column
+
+	.choose-cd-f
+		order: 2
+	.choose-cd-l
+		order: 1
 
 
 @media screen and (max-width: 700px)
@@ -254,7 +276,6 @@
 @media screen and (max-width: 600px)
 	.help-arrow
 		left: 30px
-
 
 @media screen and (max-width: 500px)
 	// -- FORM --
@@ -334,12 +355,10 @@
 	.set-item-title
 		font-size: 35px
 	.set-header
-		text-align: center
-		display: flex
-		flex-direction: column
-		align-items: center
-		h2:last-child
-			padding: 0
+		img
+			width: 90%
+			height: 90%
+
 
 
 	// -- CHOOSE --
@@ -365,17 +384,7 @@
 	.help-arrow
 		left: -94px
 
-	.ch-bl-2,
-	.ch-bl-4,
-	.ch-bl-6,
-	.ch-bl-8
-		display: flex
-		flex-direction: column
 
-	.choose-cd-f
-		order: 2
-	.choose-cd-l
-		order: 1
 
 
 	// -- FORM --

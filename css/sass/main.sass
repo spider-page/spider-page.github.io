@@ -224,6 +224,12 @@
 	padding: 0 55px 0 40px
 	cursor: pointer
 
+.close-icon
+	position: absolute
+	z-index: 10
+	top: 5px
+	right: 5px
+
 .modal-icon-vissible
 	opacity: 1
 	transform: scale(1)
@@ -285,12 +291,12 @@
 	overflow: hidden
 	position: relative
 
-	width: 226px
-	height: 226px
-
+	width: 218px
+	height: 218px
 
 	border-radius: 50%
 	cursor: pointer
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1)
 
 	transition: .3s ease
 
@@ -307,8 +313,8 @@
 	top: 0
 	left: 0
 
-	width: 226px
-	height: 226px
+	width: 218px
+	height: 218px
 	padding: 50px 20px
 
 	background-color: #fff
@@ -423,11 +429,12 @@ p.align-right
 	overflow: hidden
 	position: relative
 
-	width: 226px
-	height: 226px
+	width: 218px
+	height: 218px
 
 	border-radius: 50%
 	cursor: pointer
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1)
 
 	&:hover .choose-hover
 		opacity: .65
@@ -441,8 +448,8 @@ p.align-right
 	top: 0
 	left: 0
 
-	width: 222px
-	height: 220px
+	width: 218px
+	height: 218px
 
 	background-color: #332515
 	border-radius: 50%
@@ -604,10 +611,14 @@ p.align-right
 
 	width: 100%
 	height: auto
-	padding-bottom: 80px
 
 	background-color: #3f424a
 	background: url(../img/pattern.png)
+
+	h5
+		padding: 30px 0
+		font-family: "OpenSansRegular"
+		color: #fff
 
 	h2
 		padding-top: 50px

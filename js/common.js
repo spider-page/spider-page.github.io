@@ -22,7 +22,7 @@ $(document).ready(function(){
     });
   });
 
-  $('.modal-overlay, .close-modal').on('click', function(){
+  $('.modal-overlay, .close-modal, .close-icon').on('click', function(){
     $('body').removeClass('overflow');
     $('.modal-container, .modal-overlay, .modal-window').removeClass('container-vissible');
     $('.close-modal').removeClass('modal-icon-vissible');
